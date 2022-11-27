@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TLCIniative</title>
+  <link rel="icon" type="image/x-icon" href="images\logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles\home.css">
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+</head>
+
+<body>
+  <!--         
+        <div id="myNav" class="overlay"><img src="images\logo.png" width="70px" height="70px">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times;</a>
+          <div class="overlay-content">
+            <p style="color:white"><img src="images\logo.png" width="70px" height="70px">We are a non-profit focused on shaping lives, bridging inequality gaps & transforming low-income communities through education.</p>
+            <a href="donate.html"><button> Donate now </button></a>
+          </div>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776; </span>
+        
+        <div class="slide-right">
+            
+          </div> -->
+
+
+
+  <!-- Header -->
+  <a href="home.html"><img src="images\logo.png" width="70px" height="70px" style="position: fixed; top:0; left:0" title="Home"></a>
+  <header class="w3-display-container w3-content w3-center" style="max-width:100%">
+    <img class="w3-image" src="images\home.jpg" alt="Me" width="100%" height="600" id="home">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center w3-hide-small">
+      <h1 class="w3-medium w3-hide-small w3-xxxlarge">Transforming Lives</h1>
+      <h5 class="w3-large w3-hide-medium w3-hide-small" style="white-space:nowrap">&</h5>
+      <h3 class="w3-hide-medium w3-hide-small w3-xxxlarge">Communities Initiative</h3>
+    </div>
+
+    <!-- Navbar (placed at the bottom of the header image) -->
+    <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+      <a href="home.html" class="w3-bar-item w3-button" id="home" title="Home">Home</a>
+      <a href="#about us" class="w3-bar-item w3-button" id="about us" title="About us">About us</a>
+      <a href="our-programs.html" class="w3-bar-item w3-button" title="Our programs">Our Programs</a>
+      <a href="get-involved.html" class="w3-bar-item w3-button" title="Get Involved">Get Involved</a>
+      <a href="testimonials.html" class="w3-bar-item w3-button" title="Testimonials">Testimonials</a>
+      <a href="#contact" class="w3-bar-item w3-button" title="Contact">Contact</a>
+      <a href="donate.html" class="w3-bar-item w3-button">Donate</a>
+
+    </div>
+  </header>
+
+  <!-- Navbar on small screens -->
+  <div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+    <div class="w3-bar w3-light-grey">
+      <a href="home.html" class="w3-bar-item w3-button">Home</a>
+      <a href="#about us" class="w3-bar-item w3-button">About us</a>
+      <a href="our-programs.html" class="w3-bar-item w3-button">Our programs</a>
+      <a href="get-involved.html" class="w3-bar-item w3-button">Get Involved</a>
+      <a href="testimonials.html" class="w3-bar-item w3-button">Testimonials</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a href="donate.html" class="w3-bar-item w3-button">Donate</a>
+    </div>
+  </div>
+  <!-- Page content -->
+  <div class="w3-content w3-padding-large w3-margin-top">
+    <b>
+      <h4>
+        We are a non-profit shaping lives bridging inequality gaps &
+        transforming low-income communities through education.
+      </h4>
+    </b>
+
+    <b>
+      <h3 id="about us"><img src="images\logo.png" width="70px" height="70px">Our Story</h3>
+    </b>
+    <h5>
+      <p style="flex-wrap: wrap;", align-self="baseline">Born and raised in Ajegunle – a community regarded by BBC, as one of Lagos’ toughest and most dangerous slums
+        to live in, no one can tell the story of living in an underserved community like the team that live and work
+        <!-- tried to make it responsive =(()) -->
+      </p>
+    </h5>
+
+    <div class="media" class="responsive">
+      <div class="image"><img src="images\aboutUs-1.jpg" alt="About us"  class="responsive"></div>
+      <div class="content" >From living in crammed homes with over 40 tenants sharing a public
+        bathroom and toilet or easing out via open defecation, to living in homes without water, poor sanitation and
+        chaos from the blaring noise of a neighbor’s sound system.
+        <p>Then, the quality of schools therein with tuition at an average of $30 per term to as low as a quarter of a
+          dollar per day, one would wonder at the quality of education these fees can offer.</p>
+        <p>Then we grow up and realize we have skill gaps due to the poor quality of foundational education received and
+          the lack of exposures. This sad reality conscripted us to battle with the challenge of smoothly integrating
+          into the larger society because we felt we were not good enough or are ill-equipped for the future.</p>
+      </div>
+    </div>
+
+    <div class="media flipped">
+      <div class="image"><img src="images\aboutUs-2.jpg"
+          alt="Students returning from school after a rainy day in Ajegunle" class="responsive"></div>
+      <div class="content">Compounding the problem, is the stereotyping those of us from low-income communities, slums
+        like Ajegunle had to deal with and are still dealing with – the spoken and unspoken discrimination as well as
+        stigma. Not to forget the limitation faced in getting a job or the risk of losing one, just disclosing having a
+        background from Ajegunle. This can be dehumanizing, in spite of the fact that this same community is famous for
+        producing renowned footballers and music stars.
+      </div>
+    </div>
+    <br>
+    <div class="media">
+      <div class="image"><img src="images\aboutUs.jpg" alt="About us" class="responsive"></div>
+      <div class="content">For the sake of emphasis, Ajegunle is an “identity” for a community for the lower class and
+        socio-economically disadvantaged. With a population lower than 2 million people, 75,776/km2 population density
+        and an annual population growth of 3.3% on a land mass of 12.49km2 Area (one of the most densely populated
+        community in Sub-Saharan Africa), the youths who have developed thick skin from deprivations and limitations
+        hustle to survive, by hook or crook, and are popular for their wiles, some from frustrations.
+      </div>
+    </div>
+    <br>
+
+    <div class="media flipped">
+      <div class="image"><img src="images\aboutUs-3.jpg" alt="This is Boundary market roundabout in Ajegunle"
+          width="500px" class="responsive"></div>
+      <div class="content">The resultant effect is that the community became notorious as breeding ground for all
+        criminal elements. Street fights, gangsterism among rival cults, drug abuse, teen pregnancy, social vices and
+        youth indulgence in violent crimes are common occurrences. Many of the youths are feared and as such constitute
+        a threat to the security, peace and prosperity of the community and cosmopolitan city of Lagos and by extension,
+        Nigeria.
+      </div>
+    </div>
+
+    <br>
+    <div class="media">
+      <div class="image"><img src="images\aboutUs-5.jpg" alt="About us" class="responsive"></div>
+      <div class="content">All of these ugly realities we grew up and are witnesses to, informed our decision to change
+        the narrative of our community through our first and current initiative@TransformingAjegunleProject with a view
+        to creating and designing a model for community development which can be replicated across other
+        low-income/underserved and rural communities towards its transformation.
+        <p></p>
+
+      </div>
+    </div>
+
+    <br>
+    <div class="media flipped">
+      <div class="image"><img src="images\aboutUs-4.jpg" alt="This is Boundary market roundabout in Ajegunle" class="responsive"></div>
+      <div class="content">This project commenced in 2016 with data gathering, samples collection, experimenting with
+        approaches to know the model(s) that will be most suitable for effective impact and sustainability. From
+        insights gained from our researches and experiments, the project gained momentum in 2018. Guided by our vision
+        and mission, we identified two areas that are instrumental to development in low-income communities, which are:
+        education and accountability in governance. We have since been exploring both to the best of our abilities.
+
+      </div>
+    </div>
+
+    <b>
+      <h3><img src="images\logo.png" width="70px" height="70px">Our mission</h3>
+    </b>
+    <p>Our mission is to provide effective tools and platforms - quality education and effective governance at
+      grassroots - to reduce proverty and engender transformation in low-income communities.</p>
+
+    <b>
+      <h3><img src="images\logo.png" width="70px" height="70px">Our values</h3>
+    </b>
+    <p><b>Pay it Forward</b> - We give back</p>
+    <p><b>Integrity</b> - We are trustworthy</p>
+    <p><b>Service</b> - We are always ready to serve</p>
+
+    <!-- CARDS -->
+    <b>
+      <h3><img src="images\logo.png" width="70px" height="70px">Our portfolio</h3>
+    </b>
+    <br>
+
+    <video width="100%" height="500px" controls="controls" title="Play">
+      <source src="images\video1.mp4" type="video/mp4">
+    </video>
+
+    <br><br><br>
+
+    <section class="articles">
+      <article title="Read more">
+        <div id="main" class="article-wrapper">
+          <figure>
+            <img src="images\bread-seller.png" alt="Bread seller" />
+          </figure>
+          <div class="article-body">
+            <h2>A short story of the bread seller who visits the library</h2>
+            <p>
+              Whatever they finally become - the children who hawk and still visit this library to steal a moment to
+              read, the ones who are learning a trade or two after stopping at primary school level - whichever path to
+              success they pick for one survival reason or the other, we want them to be more than an illiterate
+              entrepreneur and citizen.
+            </p>
+            <a href="https://fb.watch/gWvIVEIZq3/" class="read-more" target="_blank">
+              Read more <span class="sr-only"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article title="Read more">
+        <div id="main" class="article-wrapper">
+          <figure>
+            <img src="images\card2.jpg" alt="Life is about taking risks" />
+          </figure>
+          <div class="article-body">
+            <h2>Life is all about taking risk</h2>
+            <p>
+              So, after reading, we look out for raw talents. Ajegunle children have enormous potential that just need
+              platforms to fully express and harness.
+              Getting ready for the next phase of our Children Library & Discovery Center - for the children, by the
+              children.
+            </p>
+            <a href="https://fb.watch/gXIfEjxB2X/" class="read-more" target="_blank">
+              Read more <span class="sr-only"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article title="Read more">
+        <div id="main" class="article-wrapper">
+          <figure>
+            <img src="images\card3.png" alt="True life story" />
+          </figure>
+          <div class="article-body">
+            <h2>True life story</h2>
+            <p>
+              There's a boy in Ajegunle called, Chinedu, (original name withheld). His father is a staunch "agbero" aka
+              tout who looks it even from a distance.
+              A few days ago, Chinedu's elder brothers were picked up by the police, of course, drug related offense.
+            </p>
+            <a href="https://fb.watch/gXIpO9_tQJ/" class="read-more" target="_blank">
+              Read more <span class="sr-only"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article title="Read more">
+        <div id="main" class="article-wrapper">
+          <figure>
+            <img src="images\card4.jpg" alt="Typing class" />
+          </figure>
+          <div class="article-body">
+            <h2>Learning just has to be fun with us</h2>
+            <p>
+              Bekere Amassoma, Oracle Academy's Program Manager once said at our conference, that, as little as typing
+              skills may sound, it's a vital tech skill.
+              So, for these children of whom 95% of them had their first computer usage exposure here, speed typing
+              skill is also one of the tech. skills we want them to be pros at before 12.
+            </p>
+            <a href="https://fb.watch/g-xGOOEjiv/" class="read-more" target="_blank">
+              Read more <span class="sr-only"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+
+
+
+
+    <!-- Images (Portfolio) 
+    <img src="/w3images/ocean.jpg" alt="Ocean" class="w3-image" width="1000" height="500">
+    <img src="/w3images/ocean2.jpg" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
+    <img src="/w3images/falls2.jpg" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
+    <img src="/w3images/mountainskies.jpg" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
+    <img src="/w3images/mountains2.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500"> -->
+
+    <!-- Contact -->
+    <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+      <h3 class="w3-center" id="contact"><img src="images\logo.png" width="70px" height="70px">Leave us a message</h3>
+      <hr>
+
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" required name="Name">
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" required name="Email">
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input w3-border" required name="Message">
+        </div>
+        <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+      </form><br>
+
+
+    </div>
+
+    <footer>
+      <p><img src="images\logo.png" width="70px" height="70px">Contact the NGO manager:</p>
+      <address>
+        <a href="mailto:jim@rock.com">hello@ticinitiative.org</a><br>
+        <a href="tel:+13115552368">+2348034161624</a>
+        <br>
+        <a href="https://www.facebook.com/transformingajegunleprojects/" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://tlcinitiative.org/" target="_blank" class="fa fa-google"></a>
+        <a href="https://www.instagram.com/gracechinkwocha/?hl=en" target="_blank" class="fa fa-instagram"></a>
+      </address>
+      &copy; <em id="date"></em>tlcinitiative
+
+      <nav class="menu">
+        <a href="#home">Home</a></li>
+        <a href="#about us">About</a></li>
+        <a href="#contact">Contact</a></li>
+      </nav>
+
+    </footer>
+
+    <!-- End page content -->
+  </div>
+
+
+</body>
+
+</html>
+
+</body>
